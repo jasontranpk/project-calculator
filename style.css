@@ -1,10 +1,13 @@
+body{
+    background-color: rgb(227, 245, 230);
+}
 h1{
     text-align: center;
 }
 .cal-container{
     width: 250px;
     height: 400px;
-    background-color: grey;
+    background-color: rgb(155, 151, 151);
     padding: 20px;
     margin: auto;
     border-radius: 10px;
@@ -16,7 +19,7 @@ h1{
 
 }
 .cal-screen{
-    background-color: rgb(163, 169, 163);
+    background-color: rgb(196, 202, 202);
     padding: 20px;
     border-radius: 5px;
     grid-column: 1/ span 4;
