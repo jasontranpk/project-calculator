@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+}
+.cal-container{
+    width: 250px;
+    height: 400px;
+    background-color: grey;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    font-family: sans-serif;
+    z-index: -1;
+
+}
+.cal-screen{
+    background-color: rgb(163, 169, 163);
+    padding: 20px;
+    border-radius: 5px;
+    grid-column: 1/ span 4;
+    grid-row: 1/ span 2;
+    margin-bottom: 20px;
+}
+.big-btn-left{
+    grid-column: 1/ span 2;
+    background-color: rgb(194, 130, 118) ;
+}
+.big-btn-right{
+    grid-column: 3/ span 2;
+    background-color: rgb(194, 130, 118) ;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin: 5px;
+    background-color: rgb(179, 180, 186);
+}
+.btn:hover{
+    filter: brightness(120%);
+}

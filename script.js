@@ -26,3 +26,5 @@ function operator(symbol, num1, num2){
             break;
     }
 }
+const btns = document.querySelectorAll(".btn");
+console.log(btns)
